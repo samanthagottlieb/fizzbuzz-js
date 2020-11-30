@@ -14,7 +14,7 @@ describe('fizzBuzz', function() {
       expect(fizzBuzz.isDivisibleByFive(5)).toBe(true);
     });
 
-    it('divisible by 3', function() {
+    it('divisible by 15', function() {
       expect(fizzBuzz.isDivisibleByFifteen(15)).toBe(true);
     });
   });
@@ -28,8 +28,7 @@ describe('fizzBuzz', function() {
       expect(fizzBuzz.isDivisibleByFive(6)).toBe(false);
     });
 
-    it('divisible by 3', function() {
+    it('divisible by 15', function() {
       expect(fizzBuzz.isDivisibleByFifteen(9)).toBe(false);
     });
   });
-});
