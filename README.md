@@ -2,7 +2,7 @@
 
 Makers Academy - Week 6 Challenge
 
-### The Project
+### The Project
 
 Test-driving FizzBuzz in JavaScript, using Jasmine.
 
@@ -16,6 +16,6 @@ Rules of FizzBuzz:
 * If a number is divisible by 3 and 5 return "FizzBuzz"
 * If a number is not divisible by 3 or 5 return the number
 
-### Learning Objectives Covered:
+### Learning Objectives Covered:
 
 * Use Jasmine to Test-Drive Development
