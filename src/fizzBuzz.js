@@ -14,4 +14,17 @@ class FizzBuzz {
   _isDivisibleBy(number, divisor) {
     return (number % divisor === 0);
   }
+
+  play(number) {
+    if (this.isDivisibleByFifteen(number)) {
+      return 'FizzBuzz';
+    }
+    if (this.isDivisibleByThree(number)) {
+      return 'Fizz';
+    }
+    if (this.isDivisibleByFive(number)) {
+      return 'Buzz';
+    }
+    return number;
+  }
 }

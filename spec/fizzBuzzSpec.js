@@ -32,3 +32,22 @@ describe('fizzBuzz', function() {
       expect(fizzBuzz.isDivisibleByFifteen(9)).toBe(false);
     });
   });
+
+  describe('when playing, play', function() {
+    it('"Fizz" when a number is divisible by 3', function() {
+      expect(fizzBuzz.play(3)).toEqual('Fizz');
+    });
+
+    it('"Buzz" when a number is divisible by 5', function() {
+      expect(fizzBuzz.play(5)).toEqual('Buzz');
+    });
+
+    it('"FizzBuzz" when a number is divisible by 15', function() {
+      expect(fizzBuzz.play(15)).toEqual('FizzBuzz');
+    });
+
+    it('given number when a number is not divisible by 3, 5 or 15', function() {
+      expect(fizzBuzz.play(7)).toEqual(7);
+    });
+  });
+});
